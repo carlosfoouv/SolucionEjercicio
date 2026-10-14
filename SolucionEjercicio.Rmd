@@ -17,4 +17,9 @@ library(robustbase)
 dim(mammals); head(mammals); tail(mammals); str(mammals)
 dim(Animals2); head(Animals2); tail(Animals2); str(Animals2)
 ```
+```{r}
+rownames(mammals); colnames(mammals)
+rownames(Animals2); colnames(Animals2)
+```
+
 
