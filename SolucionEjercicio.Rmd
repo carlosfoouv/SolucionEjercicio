@@ -4,3 +4,12 @@ author: "Carlos Foó Sidro"
 output: html_document
 ---
 
+```{r}
+install.packages(c("MASS", "robustbase"))
+library(MASS)
+library(robustbase)
+
+?mammals
+?Animals2
+```
+
