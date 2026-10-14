@@ -25,5 +25,17 @@ rownames(Animals2); colnames(Animals2)
 commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 ```
 
+```{r}
+solo_en_mammals <- setdiff(rownames(mammals), rownames(Animals2))
+solo_en_animals2 <- setdiff(rownames(Animals2), rownames(mammals))
+no_ambos <- union(solo_en_mammals, solo_en_animals2)
+
+# ¿Cuántos son?
+length(no_ambos)
+# ¿Qué tipo de animales son?
+print(no_ambos)
+```
+
+
 
 
