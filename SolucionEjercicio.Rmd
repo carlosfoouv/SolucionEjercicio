@@ -21,5 +21,9 @@ dim(Animals2); head(Animals2); tail(Animals2); str(Animals2)
 rownames(mammals); colnames(mammals)
 rownames(Animals2); colnames(Animals2)
 ```
+```{r}
+commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
+```
+
 
 
