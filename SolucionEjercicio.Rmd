@@ -35,6 +35,12 @@ length(no_ambos)
 # ¿Qué tipo de animales son?
 print(no_ambos)
 ```
+```{r}
+print(solo_en_mammals)
+print(solo_en_animals2)
+#las diferencias se deben a variaciones ortográficas
+```
+
 
 
 
