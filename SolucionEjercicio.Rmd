@@ -1,6 +1,6 @@
 ---
 title: "SolucionEjercicio"
-author: ""
+author: "Carlos Foó Sidro"
 output: html_document
 ---
 
